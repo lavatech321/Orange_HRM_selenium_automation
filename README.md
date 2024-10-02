@@ -19,7 +19,7 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-OrangeHRM application automation testing using Selenium, TestNG, and Cucumber involves automating key HR processes like adding an employee, searching for the added employee, and deleting the account. Selenium is used for interacting with the web elements, while TestNG provides test case structuring and reporting. Cucumber is used to define test scenarios in a behavior-driven development (BDD) style.
+[OrangeHRM application](https://opensource-demo.orangehrmlive.com/) automation testing using Selenium, TestNG, and Cucumber involves automating key HR processes like adding an employee, searching for the added employee, and deleting the account. Selenium is used for interacting with the web elements, while TestNG provides test case structuring and reporting. Cucumber is used to define test scenarios in a behavior-driven development (BDD) style.
 
 * Adding an Employee: Automation script navigates to the "Add Employee" form, inputs necessary details, and submits.
 * Searching Employee: The script searches for the newly added employee by name or ID.
