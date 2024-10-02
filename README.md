@@ -1,10 +1,10 @@
 <!-- PROJECT HEADER -->
 <p align="center">
   <!--PROJECT TITLE AND DESCRIPTION -->
- <h1 align="center">Automation of AutomationExcerise Web Application Using Selenium and TestNG</h1>
+ <h1 align="center">Automation of OrangeHRM Web Application Using Selenium and TestNG</h1>
 
   <p align="center">
-    A web automation project to automate testing process Online Store built using Selenium & TestNG in Java.
+    A web automation project to automate testing process of OrangeHRM employee management system built using Selenium, TestNG and Cucumber in Java.
     <br /><br/>
     <a href="https://www.linkedin.com/in/lavatech-technology-81aa6a14b/">
         <img src="https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555"
@@ -12,7 +12,6 @@
     <a href="">
         <img src="https://img.shields.io/twitter/follow/_?style=for-the-badge&logo=twitter"
             alt="follow on LinkedIn"></a>
-
   </p>
 </p>
 <hr>
@@ -20,7 +19,11 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-The objective of this project is to automate key functionalities of a web application using Selenium WebDriver integrated with TestNG for test management. The project covers automating user signup, login, adding products to the cart, placing an order and downloading the invoice. TestNG is used for organizing and running test cases efficiently, generating detailed reports, and handling assertions for validating each functionality.
+OrangeHRM application automation testing using Selenium, TestNG, and Cucumber involves automating key HR processes like adding an employee, searching for the added employee, and deleting the account. Selenium is used for interacting with the web elements, while TestNG provides test case structuring and reporting. Cucumber is used to define test scenarios in a behavior-driven development (BDD) style.
+
+* Adding an Employee: Automation script navigates to the "Add Employee" form, inputs necessary details, and submits.
+* Searching Employee: The script searches for the newly added employee by name or ID.
+* Deleting Employee: The employee record is selected and deleted, ensuring the account is removed successfully.
 
 ![Automation Demonstration](./execution.gif)
 
@@ -45,12 +48,12 @@ Steps are listed below to get this project up and running in your development en
 
 * Clone this repository in your target folder.
 ```
-git clone https://github.com/lavatech321/AutomationExcerise_selenium_automation.git
+git clone https://github.com/lavatech321/Orange_HRM_selenium_automation.git
 ```
 
-* Open _automationexcerise.testautomation_ folder in Eclipse by selecting "File -> Import -> Maven -> Existing Maven Project" and select _automationexcerise.testautomation_ folder. 
+* Open _orange_hrm.automation_ folder in Eclipse by selecting "File -> Import -> Maven -> Existing Maven Project" and select _orange_hrm.automation_ folder. 
   
-* Optionally, run maven build command if you don't see "Maven Dependencies" folder:
+Optionally, run maven build command if you don't see "Maven Dependencies" folder:
 
 ```
 mvn clean install
@@ -58,7 +61,15 @@ mvn clean install
 
 You can also right click the project, and select "Maven -> Update Project -> Check the 'Force Update of Snapshots/Releases' -> Ok". This will update the "Maven Dependencies" project.
 
-* After making any changes to the repository, you can package the code into a jar file:
+* Open _orange_hrm.automation_ folder in Eclipse by selecting "File -> Import -> Maven -> Existing Maven Project" and select _orange_hrm.automation_ folder. 
+  
+* Execute the project using below maven command:
+
+```
+mvn clean test
+```
+
+* Optionally, after making any changes to the repository, you can package the code into a jar file:
   
 ```
 mvn clean package
