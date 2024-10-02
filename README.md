@@ -32,12 +32,13 @@
 * [Maven](https://maven.apache.org/) for Package Management and Build Automation
 * [Selenium](https://www.selenium.dev/) for Web Automation
 * [TestNG](https://testng.org/) for Java testing framework that supports annotations, parallel execution, and detailed reporting for efficient test automation.
+* [Cucumber](https://cucumber.io/docs/cucumber/) Cucumber is a testing framework that supports Behavior-Driven Development (BDD) by allowing you to write test cases in plain, human-readable language.
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
 ### Prerequisites
-  Basic understanding of Java with Maven, Selenium and TestNG.
+  Basic understanding of Java with Maven, Selenium, TestNG and Cucumber.
 
 ### Running the project
 Steps are listed below to get this project up and running in your development environment.
