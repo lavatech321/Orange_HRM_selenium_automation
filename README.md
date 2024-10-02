@@ -1,7 +1,7 @@
 <!-- PROJECT HEADER -->
 <p align="center">
   <!--PROJECT TITLE AND DESCRIPTION -->
- <h1 align="center">Automation of OrangeHRM Web Application Using Selenium and TestNG</h1>
+ <h1 align="center">Automation of OrangeHRM Web Application Using Selenium,TestNG & Cucumber</h1> 
 
   <p align="center">
     A web automation project to automate testing process of OrangeHRM employee management system built using Selenium, TestNG and Cucumber in Java.
